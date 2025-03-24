@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "fanterlino-101",
+          "appId": "1:1057813223258:android:bc71ec47673bbca4a9c563",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "fanterlino-101",
+          "configurations": {
+            "android": "1:1057813223258:android:bc71ec47673bbca4a9c563",
+            "ios": "1:1057813223258:ios:0358ec32b85619b9a9c563",
+            "macos": "1:1057813223258:ios:0358ec32b85619b9a9c563",
+            "web": "1:1057813223258:web:a36983b68db64f4fa9c563",
+            "windows": "1:1057813223258:web:35544402bfe39053a9c563"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

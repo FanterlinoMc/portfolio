@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1057813223258",
+    "project_id": "fanterlino-101",
+    "storage_bucket": "fanterlino-101.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057813223258:android:bc71ec47673bbca4a9c563",
+        "android_client_info": {
+          "package_name": "com.beliverz.portafolio_ex1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc-5ytugHkxfqrgYeG7zT6PMMVqhBiEhk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
